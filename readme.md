@@ -23,77 +23,50 @@ Research Questions:
 
 ## 🛠 Prototype Features
 
-Meal Input: Users enter food items, portion sizes, and optional nutritional data
-Glycemic Impact Estimation: Predicts potential glucose response (rule-based / simplified model)
-Food Replacement Suggestions: Provides alternatives with lower estimated spikes
-Visualizations: Bar charts and comparative tables for quick understanding
+Meal Input: Users enter food items, portion sizes, and optional nutritional data  
+Glycemic Impact Estimation: Predicts potential glucose response (rule-based / simplified model)  
+Food Replacement Suggestions: Provides alternatives with lower estimated spikes  
+Visualizations: Bar charts and comparative tables for quick understanding  
 
 Note: All outputs are informational; the system does not provide medical advice.
 
 ## 📷 Demo / Screenshots
 
-(Add screenshots or GIFs of your web interface here)
+<img width="547" height="574" alt="Screenshot 2026-02-15 at 6 01 35 PM" src="https://github.com/user-attachments/assets/b0b8ecd6-6650-488a-87c2-289dbf71a19b" />
 
-Example workflow:
-User inputs a snack →
-System estimates impact →
-Displays side-by-side suggested alternative with predicted reduction
+Example workflow:  
+User inputs a snack →  
+System estimates impact →  
+Displays side-by-side suggested alternative with predicted reduction  
 
-🚀 Installation & Running Locally
+## 🚀 Installation & Running Locally
 
 Clone the repository and install dependencies:
-
+```
 git clone https://github.com/yourusername/SugarSmartScanner.git
 cd SugarSmartScanner
 pip install -r requirements.txt  # or npm install if using JS framework
 python app.py                     # or run your web server
-
-
+```
 Open http://localhost:5000 in your browser to access the prototype.
 
-⚡ Usage Example
-Input: Chocolate chip cookie (50g)
-Estimated Glucose Impact: Moderate
-Suggested Alternative: Oatmeal cookie (50g)
-Predicted Reduction: 25% lower spike
-
-
-(Include screenshots of charts if possible)
-
-🔬 Research & Future Work
+## 🔬 Research & Future Work
 
 Planned enhancements to demonstrate GenAI and real-world impact:
 
-Computer Vision: Automatic food recognition from images
+1) Computer Vision: Automatic food recognition from images  
+2) Mobile Deployment: Cross-platform app for on-the-go usage  
+3) Personalized ML Models: Predictions tailored to age, weight, activity level, or historical glucose data  
+4) Context-Aware Recommendations: Consider time of day and meal context  
+5) Integration with Wearables: CGM or fitness tracker data for real-world validation  
 
-Mobile Deployment: Cross-platform app for on-the-go usage
+## 🛠 Tech Stack
 
-Personalized ML Models: Predictions tailored to age, weight, activity level, or historical glucose data
-
-Context-Aware Recommendations: Consider time of day and meal context
-
-Integration with Wearables: CGM or fitness tracker data for real-world validation
-
-This shows a clear research direction aligned with NEC Lab’s focus on GenAI solutions with practical applications.
-
-🛠 Tech Stack
-
-Backend: Python / Flask (or FastAPI)
-
-Frontend: HTML, CSS, JavaScript (or framework used)
-
-Visualization: Matplotlib / Plotly / D3.js
-
-Predictive Modeling: Rule-based and prototype AI logic
-
-📌 Key Takeaways
-
-Demonstrates AI applied to real-world health problem
-
-Prototype highlights decision-support thinking rather than prescriptive advice
-
-Research-focused with clear potential for GenAI extensions
+Backend: Python / Flask (or FastAPI)  
+Frontend: HTML, CSS, JavaScript (or framework used)  
+Visualization: Matplotlib / Plotly / D3.js  
+Predictive Modeling: Rule-based and prototype AI logic  
 
 📂 License
-
 MIT License
+
